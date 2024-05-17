@@ -14,3 +14,10 @@ def chebyshev_distance(point1, point2):
     return max_distance
 
 
+#third implementation of the function chebyshev_distance
+def chebyshev_distance(point1, point2):
+    return max([abs(point1[i] - point2[i]) for i in range(len(point1))])
+ 
+
+
+
